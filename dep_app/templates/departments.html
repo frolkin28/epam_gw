@@ -21,8 +21,8 @@ Departments
         {% endfor %}
     </table>
     <br>
-    <br>
-    <button type="button" class="btn btn-info button"><a href="{{ url_for('add') }}">Add</a></button>
+    <a href="{{ url_for('add_department') }}" class="btn btn-secondary btn-lg active add_button" role="button"
+       aria-pressed="true">Add</a>
 </div>
 {% endblock %}
 

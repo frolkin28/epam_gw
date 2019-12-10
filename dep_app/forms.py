@@ -1,14 +1,15 @@
 from flask_wtf import FlaskForm
-from wtforms import DateField, SubmitField
+from wtforms import DateField, SubmitField, StringField, FloatField
 from wtforms.validators import DataRequired
 
 
-class DateSearch(FlaskForm):
-	date = DateField('Date')
-	submit = SubmitField('Find')
+class DepartmentForm(FlaskForm):
+	title = StringField('Title', validators=[DataRequired()])
+	submit = SubmitField('Add')
 
 
-class PeriodSearch(FlaskForm):
-	start_date = DateField('Start date', validators=DataRequired)
-	end_date = DateField('End date', validators=DataRequired)
-	submit = SubmitField('Find')
+class EmployeeForm(FlaskForm):
+	name = StringField('Name', validators=[DataRequired()])
+	dob = DateField('Date of birth', validators=[DataRequired()])
+	salary = FloatField('Salary', validators=[DataRequired()])
+	submit = SubmitField('Add')

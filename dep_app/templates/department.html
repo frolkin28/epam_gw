@@ -8,7 +8,7 @@
 <h1 class="str-title">{{ department.title }}</h1>
 <br>
 <div class="container">
-    <form method=POST action="{{ url_for('department', id=department.id) }}">
+    <form method="POST" action="{{ url_for('department', id=department.id) }}">
         <small>Search by date or period:</small>
         <p><input type="text" name="date" placeholder="Date or Date:Date" value="{{ request.args.get('date', '') }}"></p>
         <p><input type="submit" value="Find"></p>
@@ -31,7 +31,8 @@
     </table>
     <br>
     <br>
-    <button type="button" class="btn btn-info button"><a href="">Add</a></button>
+      <a href="{{ url_for('add_employee', dep_id=department.id) }}" class="btn btn-secondary btn-lg active add_button" role="button"
+       aria-pressed="true">Add</a>
 </div>
 
 {% endblock %}

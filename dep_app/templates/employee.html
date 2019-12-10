@@ -23,5 +23,6 @@
             <td>{{ employee.department.title }}</td>
         </tr>
     </table>
+    <a href="{{ url_for('employee_delete', id=employee.id) }}" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Delete</a>
 </div>
 {% endblock %}
