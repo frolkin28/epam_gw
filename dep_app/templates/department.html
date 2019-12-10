@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+{{ department.title }}
+{% endblock %}
+
+{% block content %}
+<h1 class="str-title">{{ department.title }}</h1>
+<br>
+<div class="container">
+    <form method=POST action="{{ url_for('department', id=department.id) }}">
+        <small>Search by date or period:</small>
+        <p><input type="text" name="date" placeholder="Date or Date:Date" value="{{ request.args.get('date', '') }}"></p>
+        <p><input type="submit" value="Find"></p>
+    </form>
+    </form>
+    <br>
+    <table border="3" align="center">
+        <tr>
+            <th>Full Name</th>
+            <th>Date of bith</th>
+            <th>Salary</th>
+        </tr>
+        {% for employee in employees %}
+        <tr>
+            <td><a href="{{ url_for('employee', id=employee.id) }}">{{ employee.name }}</a></td>
+            <td>{{ employee.dob }}</td>
+            <td>{{ employee.salary }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <br>
+    <button type="button" class="btn btn-info button"><a href="">Add</a></button>
+</div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+.form{
+    margin-right: .9rem!important;
+}
+.str-title{
+    text-align: center;
+}
+.button{
+    position: absolute;
+    left: 49%;
+}
+.empl-name{
+    position: absolute;
+    left: 20%;
+}
+.add{
+    margin-left: 1070px;
+    width: 60px;
+    height: 30px;
+}

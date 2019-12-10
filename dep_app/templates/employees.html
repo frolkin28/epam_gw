@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Employees
+{% endblock %}
+
+{% block content %}
+<h1 class="str-title">List of employees</h1>
+<br>
+<div class="container">
+    <table border="3" align="center">
+        <tr>
+            <th>Full Name</th>
+            <th>Date of bith</th>
+            <th>Salary</th>
+            <th>Departments</th>
+        </tr>
+        {% for employee in employees %}
+        <tr>
+            <td><a href="{{ url_for('employee', id=employee.id) }}">{{ employee.name }}</td>
+            <td>{{ employee.dob }}</td>
+            <td>{{ employee.salary }}</td>
+            <td>{{ employee.department.title }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}

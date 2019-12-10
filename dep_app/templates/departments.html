@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Departments
+{% endblock %}
+
+{% block content %}
+<h1 class="str-title">Departments</h1>
+<br>
+<div class="container">
+    <table border="3" align="center">
+        <tr>
+            <th>Title</th>
+            <th>Average Salary</th>
+        </tr>
+        {% for department in departments %}
+        <tr>
+            <td><a href="{{ url_for('department', id=department.id) }}">{{ department.title }}</a></td>
+            <td>{{ avg_salary[department.id] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <br>
+    <button type="button" class="btn btn-info button"><a href="{{ url_for('add') }}">Add</a></button>
+</div>
+{% endblock %}
+

@@ -1,0 +1,27 @@
+{% extends "layout.html" %}}
+
+{% block title %}
+{{ employee.name }}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <br>
+    <h1 class="empl-name">Employee: {{ employee.name }}</h1>
+
+    <table border="3" align="center">
+        <tr>
+            <th>Full Name</th>
+            <th>Date of bith</th>
+            <th>Salary</th>
+            <th>Departments</th>
+        </tr>
+        <tr>
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.dob }}</td>
+            <td>{{ employee.salary }}</td>
+            <td>{{ employee.department.title }}</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}
