@@ -1,4 +1,4 @@
-from dep_app import app, db
+from dep_app import app
 from flask import render_template, request
 from dep_app.models.models import Departments, Employees
 from sqlalchemy.sql import func
@@ -14,7 +14,7 @@ def departments():
 		dep = Departments.query.all()
 		salary = dict()
 		for i in dep:
-			average = db.session.query(func.avg(Employees.salary)).filter(Employees.dep_id == i.id).first()
+			average = Employees.query.with_entities(func.avg(Employees.salary)).filter((Employees.dep_id == i.id)).first()
 			if average[0]:
 				salary[i.id] = average[0]
 	return render_template('departments.html', departments=dep, avg_salary=salary)
