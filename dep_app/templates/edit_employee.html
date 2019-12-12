@@ -9,16 +9,20 @@
     {{ form.hidden_tag() }}
     <p>
         {{ form.name.label }}<br>
-        {{ form.name }}
+        {{ form.name(value=employee.name) }}
     </p>
     <p>
         {{ form.dob.label }}<br>
-        {{ form.dob }}
+        {{ form.dob(value=employee.dob) }}
     </p>
     <p>
         {{ form.salary.label }}<br>
-        {{ form.salary }}
+        {{ form.salary(value=employee.salary) }}
+    </p>
+    <p>
+        {{ form.department.label }}<br>
+        {{ form.department(value=employee.department.title) }}
     </p>
     <p>{{ form.submit() }}</p>
 </form>
-{% endblock %}
+{% endblock %}}

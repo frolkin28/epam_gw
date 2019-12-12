@@ -21,3 +21,13 @@
     position: absolute;
     left: 48%;
 }
+.delete-button{
+    position: absolute;
+    left: 74%;
+    top: 14%;
+}
+.edit-button{
+    position: absolute;
+    left: 70%;
+    top: 14%;
+}

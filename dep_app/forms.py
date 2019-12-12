@@ -5,11 +5,15 @@ from wtforms.validators import DataRequired
 
 class DepartmentForm(FlaskForm):
 	title = StringField('Title', validators=[DataRequired()])
-	submit = SubmitField('Add')
+	submit = SubmitField('Submit')
 
 
 class EmployeeForm(FlaskForm):
 	name = StringField('Name', validators=[DataRequired()])
 	dob = DateField('Date of birth', validators=[DataRequired()])
 	salary = FloatField('Salary', validators=[DataRequired()])
-	submit = SubmitField('Add')
+	submit = SubmitField('Submit')                                          
+
+
+class EditEmployeeForm(EmployeeForm):
+	department = StringField('Department', validators=[DataRequired()])

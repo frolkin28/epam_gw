@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.title.label }}<br>
+        {{ form.title(value=department.title) }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+{% endblock %}}
