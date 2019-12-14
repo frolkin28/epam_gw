@@ -1,29 +1,33 @@
 from datetime import datetime
 import re
-from dep_app import app, db
+import requests
 from flask import render_template, request, redirect, url_for
-from dep_app.models.models import Departments, Employees
-from sqlalchemy.sql import func
-from sqlalchemy import and_
 from dep_app.forms import DepartmentForm, EmployeeForm, EditEmployeeForm
+from dep_app.service.service import EmployeesSchema, DepartmentsSchema
+from dep_app import app
 
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/departments', methods=['GET', 'POST'])
 def departments():
-	dep = Departments.query.all()
+	r = requests.get('http://0.0.0.0:8000/department')
+	data = r.json()
+	schema = DepartmentsSchema(many=True)
+	dep = schema.load(data)
+	r = requests.get('http://0.0.0.0:8000/salary/average')
+	response = r.json()
 	salary = dict()
-	for i in dep:
-		average = Employees.query.with_entities(func.avg(Employees.salary)).filter(
-			(Employees.dep_id == i.id)).first()
-		if average[0]:
-			salary[i.id] = average[0]
+	for i in response.keys():
+		salary[int(i)] = response[i]
 	return render_template('departments.html', departments=dep, avg_salary=salary)
 
 
 @app.route('/employees', methods=['GET', 'POST'])
 def employees():
-	employees = Employees.query.all()
+	r = requests.get('http://0.0.0.0:8000/employee')
+	data = r.json()
+	schema = EmployeesSchema(many=True)
+	employees = schema.load(data)
 	return render_template('employees.html', employees=employees)
 
 
@@ -32,7 +36,10 @@ def department(id):
 	pattern1 = re.compile(r'\b\d{4}-\d{2}-\d{2}\b')
 	pattern2 = re.compile(r'\b\d{4}-\d{2}-\d{2}:\d{4}-\d{2}-\d{2}\b')
 
-	department = Departments.query.get(id)
+	r = requests.get('http://0.0.0.0:8000/department/by_id/{}'.format(id))
+	data = r.json()
+	schema = DepartmentsSchema()
+	department = schema.load(data)
 	employees = department.employs
 
 	if request.method == 'POST':
@@ -41,17 +48,26 @@ def department(id):
 			dates = date.split(':')
 			for i in range(len(dates)):
 				dates[i] = datetime.strptime(dates[i], '%Y-%m-%d').date()
-			employees = Employees.query.filter(Employees.dep_id == id).filter(
-				and_(Employees.dob < dates[1], Employees.dob > dates[0])).all()
+			r = requests.get('http://0.0.0.0:8000/search/{}/{}/{}'.format(id, dates[0], dates[1]))
+			data = r.json()
+			print(data)
+			schema = EmployeesSchema(many=True)
+			employees = schema.load(data)
 		elif re.search(pattern1, date):
 			date = datetime.strptime(date, '%Y-%m-%d').date()
-			employees = Employees.query.filter(Employees.dep_id == id).filter(Employees.dob == date).all()
+			r = requests.get('http://0.0.0.0:8000/search/{}/{}'.format(id, date))
+			data = r.json()
+			schema = EmployeesSchema(many=True)
+			employees = schema.load(data)
 	return render_template('department.html', department=department, employees=employees)
 
 
 @app.route('/employee/<id>', methods=['GET', 'POST'])
 def employee(id):
-	employee = Employees.query.get(id)
+	r = requests.get('http://0.0.0.0:8000/employee/{}'.format(id))
+	data = r.json()
+	schema = EmployeesSchema()
+	employee = schema.load(data)
 	return render_template('employee.html', employee=employee)
 
 
@@ -59,9 +75,7 @@ def employee(id):
 def add_department():
 	form = DepartmentForm()
 	if form.validate_on_submit():
-		department = Departments(title=form.title.data)
-		db.session.add(department)
-		db.session.commit()
+		requests.post('http://0.0.0.0:8000/department', data={'title': form.title.data})
 		return redirect(url_for('departments'))
 	return render_template('add_department.html', form=form)
 
@@ -70,45 +84,39 @@ def add_department():
 def add_employee(dep_id):
 	form = EmployeeForm()
 	if form.validate_on_submit():
-		employee = Employees(name=form.name.data, dob=form.dob.data, salary=form.salary.data, dep_id=dep_id)
-		db.session.add(employee)
-		db.session.commit()
+		data = {'name': form.name.data, 'dob': form.dob.data, 'salary': form.salary.data, 'dep_id': dep_id}
+		requests.post('http://0.0.0.0:8000/employee', data=data)
 		return redirect(url_for('department', id=dep_id))
 	return render_template('add_employee.html', form=form, title='Add department')
 
 
 @app.route('/employee/delete/<id>')
 def employee_delete(id):
-	employee = Employees.query.get(id)
-	db.session.delete(employee)
-	db.session.commit()
+	requests.delete('http://0.0.0.0:8000/employee/{}'.format(id))
 	return redirect(url_for('employees'))
 
 
 @app.route('/department/delete/<id>')
 def department_delete(id):
-	employees = Employees.query.filter(Employees.dep_id==id).all()
-	for employee in employees:
-		db.session.delete(employee)
-		db.session.commit()
-	department = Departments.query.get(id)
-	db.session.delete(department)
-	db.session.commit()
+	requests.delete('http://0.0.0.0:8000/department/by_id/{}'.format(id))
 	return redirect(url_for('departments'))
 
 
 @app.route('/department/edit/<id>', methods=['GET', 'POST'])
 def edit_department(id):
 	form = DepartmentForm()
-	department = Departments.query.get(id)
+	r = requests.get('http://0.0.0.0:8000/department/by_id/{}'.format(id))
+	data = r.json()
+	schema = DepartmentsSchema()
+	department = schema.load(data)
 	if form.validate_on_submit():
 		if form.title.data == department.title:
 			return redirect(url_for('department', id=department.id))
-		if Departments.query.filter(Departments.title==form.title.data).first():
+		r = requests.get('http://0.0.0.0:8000/department/by_title/{}'.format(form.title.data))
+		data = r.json()
+		if data:
 			return redirect(url_for('edit_department', id=id))
-		department.title = form.title.data
-		db.session.add(department)
-		db.session.commit()
+		requests.put('http://0.0.0.0:8000/department', data={'title': form.title.data, 'id': id})
 		return redirect(url_for('departments'))
 	return render_template('edit_department.html', form=form, title='edit department', department=department)
 
@@ -116,16 +124,17 @@ def edit_department(id):
 @app.route('/employee/edit/<id>', methods=['GET', 'POST'])
 def edit_employee(id):
 	form = EditEmployeeForm()
-	employee = Employees.query.get(id)
+	r = requests.get('http://0.0.0.0:8000/employee/{}'.format(id))
+	data = r.json()
+	schema = EmployeesSchema()
+	employee = schema.load(data)
 	if form.validate_on_submit():
-		department = Departments.query.filter(Departments.title == form.department.data).first()
-		if department:
-			employee.name = form.name.data
-			employee.dob = form.dob.data
-			employee.salary = form.salary.data
-			employee.dep_id = department.id
-			db.session.add(employee)
-			db.session.commit()
+		r = requests.get('http://0.0.0.0:8000/department/by_title/{}'.format(form.department.data))
+		data = r.json()
+		if data:
+			data_to_put = {'id': id, 'name': form.name.data, 'dob': form.dob.data, 'salary': form.salary.data,
+						   'dep_id': data['id']}
+			requests.put('http://0.0.0.0:8000/employee', data=data_to_put)
 			return redirect(url_for('employees'))
 		else:
 			return redirect(url_for('edit_employee', id=id))

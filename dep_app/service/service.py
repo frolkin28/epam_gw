@@ -25,7 +25,7 @@ class AverageSalary(Resource):
 class DepartmentManagement(Resource):
 	def get(self, id=None, title=None):
 		if id:
-			department = Departments.query.filter(Departments.id == id).first()
+			department = Departments.query.get(id)
 			department_schema = DepartmentsSchema()
 		elif title:
 			department = Departments.query.filter(Departments.title == title).first()
@@ -48,7 +48,7 @@ class DepartmentManagement(Resource):
 	def put(self):
 		args = parser1.parse_args()
 		department_schema = DepartmentsSchema()
-		department = Departments.query.filter(Departments.id == args['id']).first()
+		department = Departments.query.get(args['id'])
 		department.title = args['title']
 		db.session.add(department)
 		db.session.commit()
@@ -79,7 +79,7 @@ parser2.add_argument('dep_id')
 class EmployeeManagement(Resource):
 	def get(self, id=None):
 		if id:
-			employee = Employees.query.filter(Employees.id == id).first()
+			employee = Employees.query.get(id)
 			employee_schema = EmployeesSchema()
 		else:
 			employee = Employees.query.all()
