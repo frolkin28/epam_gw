@@ -1,0 +1,6 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 11:53:55] "GET /department/by_id/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 11:54:03] "GET /department HTTP/1.1" 200 -

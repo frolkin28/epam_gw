@@ -1,0 +1,12 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:14:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:14:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:14:20] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:14:21] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:15:00] "GET /departments/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:15:06] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:15:18] "POST /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Dec/2019 12:16:00] "GET /departments HTTP/1.1" 200 -
