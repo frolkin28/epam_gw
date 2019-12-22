@@ -11,6 +11,8 @@ parser1.add_argument('title')
 
 
 class AverageSalary(Resource):
+	'''Rest api resource, which returns information about avarage salary for each department'''
+
 	def get(self):
 		dep = Departments.query.all()
 		salary = dict()
@@ -23,6 +25,8 @@ class AverageSalary(Resource):
 
 
 class DepartmentManagement(Resource):
+	'''Rest api resource, which provides CRUD operation with departments database table'''
+
 	def get(self, id=None, title=None):
 		if id:
 			department = Departments.query.get(id)
@@ -77,6 +81,8 @@ parser2.add_argument('dep_id')
 
 
 class EmployeeManagement(Resource):
+	'''Rest api resource, which provides CRUD operation with employees database table'''
+
 	def get(self, id=None):
 		if id:
 			employee = Employees.query.get(id)

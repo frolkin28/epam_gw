@@ -8,7 +8,9 @@ setuptools.setup(
 	version='0.0.1',
 	author='Frolkin Volodimir',
 	author_email='frolkin2801@gmail.com',
-	description='Package with rest crud service and web application',
+	long_description=long_description,
+	description='Package with rest api and web application',
+	url='https://github.com/frolkin28/epam_gw',
 	packges=setuptools.find_packages(),
 	python_requires='>=3.6'
 )

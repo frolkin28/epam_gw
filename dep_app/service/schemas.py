@@ -7,11 +7,15 @@ ma = Marshmallow()
 
 
 class BaseSchema(ma.ModelSchema):
+	'''Basic schema to inherit'''
+
 	class Meta:
 		sqla_session = db.session
 
 
 class EmployeesSchema(BaseSchema):
+	'''Employees serialization schema'''
+
 	class Meta(BaseSchema.Meta):
 		model = Employees
 
@@ -21,6 +25,8 @@ class EmployeesSchema(BaseSchema):
 
 
 class DepartmentsSchema(BaseSchema):
+	'''Departments serialization schema'''
+
 	employs = ma.Nested(EmployeesSchema, many=True)
 
 	class Meta(BaseSchema.Meta):

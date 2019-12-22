@@ -1,12 +1,14 @@
+import logging
+import os
 from flask import Flask
 from flask_restful import Api
 from dep_app.service.service import DepartmentManagement, EmployeeManagement, AverageSalary, Search
 from dep_app import db
-import logging
+
 
 console = logging.StreamHandler()
 console.setLevel(logging.DEBUG)
-filehandler = logging.FileHandler('rest_log.log')
+filehandler = logging.FileHandler((os.path.abspath('rest_log.log')))
 filehandler.setLevel(logging.DEBUG)
 logging.basicConfig(handlers=[console, filehandler])
 

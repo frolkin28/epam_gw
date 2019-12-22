@@ -1,11 +1,13 @@
+import logging
+import os
 from flask_script import Manager, Server
 from flask_migrate import Migrate, MigrateCommand
 from dep_app import db, app
-import logging
+
 
 console = logging.StreamHandler()
 console.setLevel(logging.DEBUG)
-filehandler = logging.FileHandler('app_log.log')
+filehandler = logging.FileHandler(os.path.abspath('app_log.log'))
 filehandler.setLevel(logging.DEBUG)
 logging.basicConfig(handlers=[console, filehandler])
 

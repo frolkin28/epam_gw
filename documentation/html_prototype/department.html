@@ -9,7 +9,7 @@
     <link  href="stylee.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
-  <body>
+  <body >
       <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <a class="navbar-brand" href="#">Departments management</a>
@@ -31,30 +31,48 @@
 <br/>
 <br/>
 <br/>
-<h1 class="h1"> Departments</h1>
+<h1 class="h1"> Kiev </h1>
 <br/>
+<div class="div4">
+<div class="form1">
+<form  method="POST" action="{{ url_for('department', id=department.id) }}">
+    <small>Search by date or period:</small>
+    <p><input  type="text" name="date" placeholder="Date or Date:Date" value="" >
+    </p>
+    <p><input type="submit" value="Find"></p>
+</form>
+</div>
+<p class="p4">
+    <a href="#" target="_blank"><button class="add3"  type="button"  > edit </i></button></a> 
+    <a href="#" target="_blank"><button class="add4"  type="button"  > Delete </i></button></a> 
+</p>
+</div>
 
 <div>
 <table border="3" align="center">
   <tr>
-    <th> Title </th>
-    <th> Average Salary </th>  
+    <th> Full Name </th>
+    <th> Date of bith </th>  
+    <th> Salary</th>  
+   
   </tr>
   <tr>
-    <td>Kiev</td>
-    <td> 1500.0 </td>
-     </tr>
-  <tr>
-    <td> Lviv </td>
-    <td> 800.0 </td>
-     </tr>
-  <tr>
-    <td> Kharkov </td>
-    <td> 500.0 </td>
- </tr>
-</table>
-<br>
-<div><a href="#" target="_blank"><button class="add1"  type="button"  > add </i></button></a> </div>
+    <td> Vladimir </td>
+    <td> 2001-01-01</td>
+    <td> 2000.0 </td>  
+</tr>
+<tr>
+    <td> Ded </td>
+    <td> 1988-10-02</td>
+    <td> 1000.0 </td>  
+</tr>
+ </table>
+
+<div>
+    <br>
+<a href="#" target="_blank"><button class="add1"  type="button"  > Add </i></button></a> 
+</div>
+
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
