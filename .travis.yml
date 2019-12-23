@@ -1,12 +1,6 @@
 language: python
 matrix:
     include:
-        - python: 3.4
-          dist: trusty
-          sudo: false
-        - python: 3.5
-          dist: trusty
-          sudo: false
         - python: 3.6
           dist: trusty
           sudo: false
@@ -15,6 +9,9 @@ matrix:
           sudo: true
 install:
   - pip3 install -r requirements.txt
+before_script:
+  - python3 dep_app/rest/api.py
 script:
-  - python3 -m unittest discover
+  - python3 -m unittest dep_app/tests/test_rest.py
+
 
