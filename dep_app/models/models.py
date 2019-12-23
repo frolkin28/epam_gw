@@ -1,3 +1,4 @@
+'''Database models module'''
 from dep_app import db
 
 

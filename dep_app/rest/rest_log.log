@@ -1,0 +1,521 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug: * Detected change in '/home/vladimir/epam_gw/dep_app/rest/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:06:00] "DELETE /department/by_id/6 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:06:00] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:06:00] "GET /department/by_title/SSS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:06:00] "GET /department/by_id/None HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:06:00] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:06:00] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:08:35] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:08:35] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:08:35] "GET /department/by_title/SSS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:08:35] "GET /department/by_id/55 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:08:35] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:08:35] "DELETE /department/by_id/6 HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:17:50] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:17:50] "DELETE /department/by_id/56 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:18:10] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:18:10] "DELETE /department/by_id/57 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "GET /department/by_id/58 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "DELETE /department/by_id/58 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:31:53] "DELETE /department/by_id/59 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "GET /department/by_id/60 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "DELETE /department/by_id/60 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "DELETE /department/by_id/61 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:32:10] "DELETE /department/by_id/62 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "DELETE /department/by_id/63 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "DELETE /department/by_id/63 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "GET /department/by_id/64 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "DELETE /department/by_id/64 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "DELETE /department/by_id/65 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:33:53] "DELETE /department/by_id/66 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "DELETE /department/by_id/67 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "DELETE /department/by_id/67 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "GET /department/by_id/68 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "DELETE /department/by_id/68 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:41:46] "DELETE /department/by_id/70 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "DELETE /department/by_id/71 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "DELETE /department/by_id/71 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "GET /department/by_id/72 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "DELETE /department/by_id/72 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "DELETE /department/by_id/73 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 00:44:09] "DELETE /department/by_id/74 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:23] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:23] "DELETE /department/by_id/75 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:23] "DELETE /department/by_id/75 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:23] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "GET /department/by_id/76 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "DELETE /department/by_id/76 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "DELETE /department/by_id/77 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "DELETE /department/by_id/78 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:00:24] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /department/by_id/80 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /department/by_id/80 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "GET /department/by_id/81 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /department/by_id/81 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /department/by_id/82 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /department/by_id/83 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /department/by_id/84 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:03:58] "DELETE /employees/8 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /department/by_id/85 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /department/by_id/85 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "GET /department/by_id/86 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /department/by_id/86 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /department/by_id/87 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /department/by_id/88 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "GET /employees HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /department/by_id/89 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:07:46] "DELETE /employees/9 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "DELETE /department/by_id/90 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "DELETE /department/by_id/90 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "GET /department/by_id/91 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "DELETE /department/by_id/91 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "DELETE /department/by_id/92 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "DELETE /department/by_id/93 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:19] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:20] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:20] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:20] "DELETE /department/by_id/94 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:08:20] "DELETE /employees/10 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "DELETE /department/by_id/95 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "DELETE /department/by_id/95 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "GET /department/by_id/96 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:22] "DELETE /department/by_id/96 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "DELETE /department/by_id/97 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "DELETE /department/by_id/98 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "GET /employee/100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "DELETE /department/by_id/99 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:09:23] "DELETE /employees/11 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "DELETE /department/by_id/100 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "DELETE /department/by_id/100 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "GET /department/by_id/101 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "DELETE /department/by_id/101 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "DELETE /department/by_id/102 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:34] "DELETE /department/by_id/103 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "DELETE /department/by_id/104 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "DELETE /employees/12 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:35] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /department/by_id/106 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /department/by_id/106 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "GET /department/by_id/107 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /department/by_id/107 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /department/by_id/108 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /department/by_id/109 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /department/by_id/110 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "DELETE /employees/14 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 02:17:46] "PUT /employees HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/133 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/133 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "GET /department/by_id/134 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/134 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/135 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/136 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /employee/25 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/137 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/138 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /employees/26 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /department/by_id/139 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:09:33] "DELETE /employee/27 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/140 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/140 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "GET /department/by_id/141 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/141 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/142 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/143 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/144 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /employees/28 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /department/by_id/145 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:10:55] "DELETE /employee/29 HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /department/by_id/146 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /department/by_id/146 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "GET /department/by_id/147 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /department/by_id/147 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /department/by_id/148 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /department/by_id/149 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /employee/30 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "DELETE /department/by_id/150 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:22] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "DELETE /department/by_id/151 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "DELETE /employee/31 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "DELETE /department/by_id/152 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:12:23] "DELETE /employee/32 HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "DELETE /department/by_id/153 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "DELETE /department/by_id/153 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "GET /department/by_id/154 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "DELETE /department/by_id/154 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "DELETE /department/by_id/155 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "DELETE /department/by_id/156 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:04] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:05] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:05] "DELETE /department/by_id/157 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:14:05] "DELETE /employee/33 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "DELETE /department/by_id/158 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "DELETE /department/by_id/158 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "GET /department/by_id/159 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:35] "DELETE /department/by_id/159 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "DELETE /department/by_id/160 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "DELETE /department/by_id/161 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "DELETE /employee/34 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:18:36] "DELETE /department/by_id/162 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/163 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/163 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "GET /department/by_id/164 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/164 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/165 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/166 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /employee/35 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /employee/35 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/167 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /employee/36 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/168 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /employee/37 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:38] "DELETE /department/by_id/169 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /department/by_id/170 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /department/by_id/170 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "GET /department/by_id/171 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /department/by_id/171 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /department/by_id/172 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /department/by_id/173 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /employee/38 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /employee/38 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:57] "DELETE /department/by_id/174 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "DELETE /employee/39 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "DELETE /department/by_id/175 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "DELETE /employee/40 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:19:58] "DELETE /department/by_id/176 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:08] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:08] "DELETE /department/by_id/177 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:08] "DELETE /department/by_id/177 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "GET /department/by_id/178 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /department/by_id/178 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /department/by_id/179 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /department/by_id/180 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /employee/41 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /department/by_id/181 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /department/by_id/182 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:09] "DELETE /department/by_id/183 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "DELETE /department/by_id/184 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "DELETE /department/by_id/184 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "GET /department/by_id/185 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "DELETE /department/by_id/185 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "DELETE /department/by_id/186 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:55] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:56] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:21:56] "DELETE /department/by_id/187 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "DELETE /department/by_id/188 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "GET /department/by_id/189 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "DELETE /department/by_id/189 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "DELETE /department/by_id/190 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:22:26] "DELETE /department/by_id/191 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/192 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "GET /department/by_title/unittest HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "GET /department/by_id/193 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/193 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/194 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "PUT /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/195 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /employee/44 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/196 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "GET /employee/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/197 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 14:23:24] "DELETE /department/by_id/198 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:23] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:27] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:28] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:30] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:57] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:43:57] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:44:31] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Dec/2019 18:44:31] "GET /salary/average HTTP/1.1" 200 -

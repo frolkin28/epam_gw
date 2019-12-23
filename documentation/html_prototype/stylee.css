@@ -1,0 +1,45 @@
+.form{
+    margin-right: .9rem!important;
+
+}
+.h1{
+    text-align: center;
+}
+.add{
+    margin-left: 890px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: rgb(38, 38, 53);
+}
+.add1{ 
+    margin-left: 735px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: rgb(38, 38, 53);
+}
+.add3{
+    margin-left: 1200px;
+    color: white;
+    background: blue;
+}
+.add4{
+    color: white;
+    background:red;
+}
+.form1{
+    margin-left: 200px;
+
+}
+.div4{
+    position: absolute;
+    
+   
+}
+.p4{
+    margin-top: -100px;
+}
+.p3{
+    margin-top: -45px;
+}
