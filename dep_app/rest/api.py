@@ -24,4 +24,4 @@ api.add_resource(AverageSalary, '/salary/average')
 api.add_resource(Search, '/search/<dep_id>/<fr>/<to>', '/search/<dep_id>/<dob>')
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', port='8000')
+	app.run()
