@@ -1,3 +1,4 @@
+'''Unittests module'''
 import unittest
 import requests
 
@@ -5,7 +6,7 @@ url = 'http://0.0.0.0:8000'
 
 
 def generate_department():
-	'''Function, which makes post request for further testing'''
+	'''Function, which makes post request to departments resource for further testing'''
 
 	data = {'title': 'unittest'}
 	r = requests.post(url + '/department', data=data)
@@ -19,12 +20,14 @@ class TestRestDepartments(unittest.TestCase):
 	'''
 
 	def test_post(self):
+		'''Post method test for departments'''
 		res, status, data = generate_department()
 		self.assertEqual(status, 201)
 		self.assertEqual(res['title'], data['title'])
 		requests.delete(url + '/department/by_id/{}'.format(res['id']))
 
 	def test_get(self):
+		'''Get method test for departments'''
 		res, _, _ = generate_department()
 		r = requests.get(url + '/department')
 		self.assertEqual(200, r.status_code)
@@ -35,6 +38,7 @@ class TestRestDepartments(unittest.TestCase):
 		requests.delete(url + '/department/by_id/{}'.format(res['id']))
 
 	def test_put(self):
+		'''Put method test for departments'''
 		res, _, _ = generate_department()
 		post = {'title': 'AAA', 'id': res['id']}
 		r = requests.put(url + '/department', data={'title': 'AAA', 'id': res['id']})
@@ -44,6 +48,7 @@ class TestRestDepartments(unittest.TestCase):
 		requests.delete(url + '/department/by_id/{}'.format(res['id']))
 
 	def test_delete(self):
+		'''Delete method test for departments'''
 		res, _, _ = generate_department()
 		r = requests.delete(url + '/department/by_id/{}'.format(res['id']))
 		self.assertEqual(r.status_code, 200)
@@ -55,6 +60,7 @@ class TestRestEmployees(unittest.TestCase):
 	'''
 
 	def test_post(self):
+		'''Post method test for employees'''
 		res, _, _ = generate_department()
 		data = {'name': 'unittest', 'dob': '1000-10-10', 'salary': 1, 'dep_id': res['id']}
 		r = requests.post(url + '/employee', data=data)
@@ -62,12 +68,14 @@ class TestRestEmployees(unittest.TestCase):
 		requests.delete(url + '/department/by_id/{}'.format(res['id']))
 
 	def test_get(self):
+		'''Get method test for employees'''
 		r = requests.get(url + '/employee')
 		self.assertEqual(200, r.status_code)
 		r = requests.get(url + '/employee/{}'.format(1))
 		self.assertEqual(200, r.status_code)
 
 	def test_put(self):
+		'''Put method test for employees'''
 		res, _, _ = generate_department()
 		post = {'name': 'unittest', 'dob': '1000-10-10', 'salary': 1, 'dep_id': res['id']}
 		response = requests.post(url + '/employee', data=post).json()
@@ -77,6 +85,7 @@ class TestRestEmployees(unittest.TestCase):
 		requests.delete(url + '/department/by_id/{}'.format(res['id']))
 
 	def test_delete(self):
+		'''Delete method test for employees'''
 		res, _, _ = generate_department()
 		post = {'name': 'unittest', 'dob': '1000-10-10', 'salary': 1, 'dep_id': res['id']}
 		response = requests.post(url + '/employee', data=post).json()

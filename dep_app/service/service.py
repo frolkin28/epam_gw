@@ -1,3 +1,4 @@
+'''Module for rest api resources'''
 from flask_restful import Resource, reqparse
 from dep_app.models.models import Departments, Employees
 from .schemas import DepartmentsSchema, EmployeesSchema

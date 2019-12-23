@@ -1,3 +1,4 @@
+'''Module with views for web-application'''
 from datetime import datetime
 import re
 import requests

@@ -1,3 +1,4 @@
+'''Main rest api module'''
 import logging
 import os
 from flask import Flask

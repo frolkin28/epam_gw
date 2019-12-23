@@ -1,3 +1,4 @@
+'''Module for managing web-application and database migrations'''
 import logging
 import os
 from flask_script import Manager, Server
