@@ -1,4 +1,5 @@
 '''Module for rest api resources'''
+from datetime import datetime
 from flask_restful import Resource, reqparse
 from dep_app.models.models import Departments, Employees
 from .schemas import DepartmentsSchema, EmployeesSchema
@@ -97,7 +98,8 @@ class EmployeeManagement(Resource):
 	def post(self):
 		args = parser2.parse_args()
 		employee_schema = EmployeesSchema()
-		employee = Employees(name=args['name'], dob=args['dob'], salary=args['salary'], dep_id=args['dep_id'])
+		employee = Employees(name=args['name'], dob=datetime.strptime(args['dob'], '%Y-%m-%d').date(), \
+							 salary=args['salary'], dep_id=args['dep_id'])
 		db.session.add(employee)
 		db.session.commit()
 		res = employee_schema.dump(employee)
@@ -107,7 +109,7 @@ class EmployeeManagement(Resource):
 		args = parser2.parse_args()
 		employee = Employees.query.get(args['id'])
 		employee.name = args['name']
-		employee.dob = args['dob']
+		employee.dob = datetime.strptime(args['dob'], '%Y-%m-%d').date()
 		employee.salary = args['salary']
 		employee.dep_id = args['dep_id']
 		db.session.add(employee)

@@ -1,9 +1,10 @@
 '''Module docstring'''
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from .config import ApplicationConfig
 
 app = Flask(__name__)
-app.config.from_pyfile('config.py')
+app.config.from_object(ApplicationConfig)
 db = SQLAlchemy()
 db.init_app(app)
 

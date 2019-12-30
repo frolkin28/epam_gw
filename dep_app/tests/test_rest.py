@@ -1,8 +1,9 @@
 '''Unittests module'''
 import unittest
-from dep_app.rest.api import app
+import os
+from dep_app.rest.api import app, db
 
-# url = 'http://0.0.0.0:8000'
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class TestRestDepartments(unittest.TestCase):
@@ -11,7 +12,18 @@ class TestRestDepartments(unittest.TestCase):
 	'''
 
 	def setUp(self):
+		self.db_uri = 'sqlite:///' + os.path.join(basedir, 'test.db')
+		app.config['TESTING'] = True
+		app.config['WTF_CSRF_ENABLED'] = False
+		app.config['SQLALCHEMY_DATABASE_URI'] = self.db_uri
+		with app.app_context():
+			db.create_all()
 		self.app = app.test_client()
+
+	def tearDown(self):
+		with app.app_context():
+			db.session.remove()
+			db.drop_all()
 
 	def test_post(self):
 		'''Post method test for departments'''
@@ -55,8 +67,20 @@ class TestRestEmployees(unittest.TestCase):
 	'''
 	Unittests for CRUD operations with Employees table in rest api
 	'''
+
 	def setUp(self):
+		self.db_uri = 'sqlite:///' + os.path.join(basedir, 'test.db')
+		app.config['TESTING'] = True
+		app.config['WTF_CSRF_ENABLED'] = False
+		app.config['SQLALCHEMY_DATABASE_URI'] = self.db_uri
+		with app.app_context():
+			db.create_all()
 		self.app = app.test_client()
+
+	def tearDown(self):
+		with app.app_context():
+			db.session.remove()
+			db.drop_all()
 
 	def generate_department(self):
 		'''Function, which makes post request to departments resource for further testing'''
@@ -66,6 +90,13 @@ class TestRestEmployees(unittest.TestCase):
 		res = r.json
 		return res, r.status_code, data
 
+	def test_get(self):
+		'''Get method test for employees'''
+		r = self.app.get('/employee')
+		self.assertEqual(200, r.status_code)
+		r = self.app.get('/employee/{}'.format(1))
+		self.assertEqual(200, r.status_code)
+
 	def test_post(self):
 		'''Post method test for employees'''
 		res, _, _ = self.generate_department()
@@ -73,13 +104,6 @@ class TestRestEmployees(unittest.TestCase):
 		r = self.app.post('/employee', data=data)
 		self.assertEqual(r.status_code, 201)
 		self.app.delete('/department/by_id/{}'.format(res['id']))
-
-	def test_get(self):
-		'''Get method test for employees'''
-		r = self.app.get('/employee')
-		self.assertEqual(200, r.status_code)
-		r = self.app.get('/employee/{}'.format(1))
-		self.assertEqual(200, r.status_code)
 
 	def test_put(self):
 		'''Put method test for employees'''

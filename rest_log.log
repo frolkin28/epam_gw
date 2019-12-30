@@ -6,3 +6,11 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:26] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:27] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:29] "GET /department/by_id/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:30] "GET /employee HTTP/1.1" 200 -
