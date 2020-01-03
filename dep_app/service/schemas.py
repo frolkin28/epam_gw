@@ -1,5 +1,5 @@
 '''Marshmallow schemas for data serialization'''
-from .service import Departments, Employees
+from dep_app.service.service import Departments, Employees
 from dep_app import db
 from flask_marshmallow import Marshmallow
 from marshmallow import post_load

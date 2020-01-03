@@ -2,7 +2,7 @@
 from datetime import datetime
 from flask_restful import Resource, reqparse
 from dep_app.models.models import Departments, Employees
-from .schemas import DepartmentsSchema, EmployeesSchema
+from dep_app.service.schemas import DepartmentsSchema, EmployeesSchema
 from dep_app import db
 from sqlalchemy.sql import func
 from sqlalchemy import and_

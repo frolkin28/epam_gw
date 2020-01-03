@@ -6,7 +6,13 @@ matrix:
           sudo: true
 install:
   - pip3 install -r requirements.txt
+before_script:
+  - gunicorn -c gconfig.py wsgi:app
+  - python3.7 manage.py runserver
 script:
   - python3.7 -m unittest -v dep_app/tests/test_rest.py
+after_success:
+  - coverage report dep_app/tests/test_rest.py
+
 
 
