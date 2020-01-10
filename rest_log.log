@@ -14,3 +14,78 @@ INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:26] "GET /department HTTP/1.1" 20
 INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:27] "GET /salary/average HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:29] "GET /department/by_id/1 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [24/Dec/2019 00:35:30] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:52] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:52] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /department/by_id/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department/by_id/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employee/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employee/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employee/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department/by_title/Test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department/by_id/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "DELETE /department/by_id/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:55] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:29] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:29] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "GET /department/by_id/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /department/by_id/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employee/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employee/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employee/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /department/by_title/Test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /department/by_id/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "DELETE /department/by_id/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:54] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:54] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:58] "POST /department HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:59] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:59] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:59] "GET /department/by_id/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "POST /employee HTTP/1.1" 201 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /department/by_id/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /employee/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /employee/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /employee/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /department/by_title/Test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "PUT /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /department/by_id/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "DELETE /department/by_id/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /salary/average HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:02] "GET /employee HTTP/1.1" 200 -

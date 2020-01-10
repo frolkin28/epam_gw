@@ -1215,3 +1215,192 @@ INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 14:59:27] "GET /department/21 HTTP/1.1"
 INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 14:59:27] "GET /department/delete/21 HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 14:59:27] "GET /departments HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 14:59:28] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 18:02:45] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 18:02:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 18:02:45] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 18:02:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 18:02:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 18:02:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:52] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /departments/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "POST /departments/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /department/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:53] "GET /employee/add/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "POST /employee/add/7 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employee/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employee/edit/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "POST /employee/edit/8 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department/7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /department/delete/7 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:54] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 13:50:55] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:30] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:31] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:32] "GET /departments/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "POST /departments/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "GET /department/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:33] "GET /employee/add/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "POST /employee/add/8 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /department/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employee/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employee/edit/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "POST /employee/edit/9 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:34] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /department/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /department/delete/8 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:35] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:54] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:58] "GET /departments/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:58] "POST /departments/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:59] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:59] "GET /department/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:33:59] "GET /employee/add/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "POST /employee/add/9 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /department/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /employee/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "GET /employee/edit/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:00] "POST /employee/edit/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /department/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /department/delete/9 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:02] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-367-959
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:33] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:35] "GET /departments/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:35] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:41] "POST /departments/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:41] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:46] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:33:48] "GET /employee/add/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:02] "POST /employee/add/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:02] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:04] "GET /employee/add/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:17] "POST /employee/add/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:17] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:19] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:21] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:29] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:31] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:39] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:40] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:34:55] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:16] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:18] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:22] "GET /department/edit/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:25] "POST /department/edit/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:25] "GET /department/edit/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:31] "POST /department/edit/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:31] "GET /department/edit/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:33] "POST /department/edit/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:33] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:35] "GET /department/edit/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:44] "POST /department/edit/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:44] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:47] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:48] "GET /department/edit/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:52] "POST /department/edit/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:53] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:55] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:35:58] "GET /employee/12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:00] "GET /employee/edit/12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:16] "POST /employee/edit/12 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:17] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:19] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:21] "GET /department/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:23] "GET /employee/12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:25] "GET /employee/edit/12 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:29] "POST /employee/edit/12 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:29] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:31] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:33] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:35] "GET /employee/add/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:50] "POST /employee/add/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:50] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:58] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:36:59] "POST /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:04] "GET /employee/13 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:05] "GET /employee/delete/13 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:05] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:09] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:11] "GET /department/10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:13] "GET /department/delete/10 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:13] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:43] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:37:46] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:39:41] "GET /department/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:40:31] "GET /department/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:40:31] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:40:36] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:41:01] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:41:05] "GET /department/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:41:11] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:41:13] "GET /employee/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:42:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:42:48] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:42:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:42:53] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:42:59] "GET /employee/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:43:31] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:43:34] "GET /department/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:43:39] "GET /department/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:43:40] "GET /employee/add/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:43:50] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:43:54] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:05] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:07] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:12] "GET /employee/add/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:22] "POST /employee/add/5 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:22] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:24] "GET /employee/add/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:35] "POST /employee/add/5 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:35] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:36] "GET /employee/add/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:45] "POST /employee/add/5 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:45] "GET /department/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:50] "GET /employee/14 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:52] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:55] "GET /employee/14 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:57] "GET /employee/delete/14 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:57] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:44:59] "GET /employee/15 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:00] "GET /employee/delete/15 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:00] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:02] "GET /employee/16 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:03] "GET /employee/delete/16 HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:03] "GET /employees HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:06] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 17:45:08] "GET /department/5 HTTP/1.1" 200 -
