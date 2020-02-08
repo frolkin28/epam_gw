@@ -11,11 +11,13 @@ $ python setup.py install
 Run api using gunicorn:
 $ gunicorn -c gconfig.py wsgi:app
 
-Run api using python scrip:
+Run api using python script:
 $ python wsgi.py
 
 Run web application (run the api firstly):
-$ python manage.py runserver
+$ python manage.py runserver 
+or 
+$ bash init.sh
 
 Run unitests:
 - for api:
@@ -24,9 +26,12 @@ $ python -m unittest -v dep_app/tests/test_rest.py
 - for web-application using selenium (run api and web-app firstly):
 $ python -m unittest -v dep_app/tests/test_rest.py
 
+- with coverage:
+coverage run -m unittest -v dep_app/tests/test_rest.py
+
 Migration script:
 $ python manage.py db init
 $ python manage.py db migrate
 $ python manage.py db upgrade
 
-Rest service is avaliable on adresss http://0.0.0.0:8000. Web application is avaliable on http://127.0.0.1:5000.
+Rest service is avaliable on adresss http://127.0.0.1:8000. Web application is avaliable on http://127.0.0.1:5000.
