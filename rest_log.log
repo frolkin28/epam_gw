@@ -89,3 +89,8 @@ INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "DELETE /department/by_id/9 H
 INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /department HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:01] "GET /salary/average HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 16:34:02] "GET /employee HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-876-401
+INFO:werkzeug:127.0.0.1 - - [08/Feb/2020 14:08:13] "GET /department HTTP/1.1" 200 -

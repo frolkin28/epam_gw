@@ -7,7 +7,7 @@ from dep_app.forms import DepartmentForm, EmployeeForm, EditEmployeeForm
 from dep_app.service.service import EmployeesSchema, DepartmentsSchema
 from dep_app import app
 
-url = 'http://0.0.0.0:8000'
+url = 'http://127.0.0.1:8000'
 
 
 @app.route('/', methods=['GET', 'POST'])
