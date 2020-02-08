@@ -7,7 +7,7 @@ matrix:
 install:
   - pip3 install -r requirements.txt
 script:
-  - python3.7 -m unittest -v dep_app/tests/test_rest.py
+  - coverage run -m unittest -v dep_app/tests/test_rest.py
 after_success:
   - coveralls
 
